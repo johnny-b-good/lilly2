@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LILLY 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        Hello Lilly!
+    </div>
+
+    <div class="templates">
+        <div class="post-template">
+            <div class="post">
+                <div class="post__header"><%= title %></div>
+                <div class="post__body"><%= text %></div>
+                <div class="post__author"><%= author %></div>
+                <div class="post__date"><%= date %></div>
+            </div>
+
+            <div class="thread-template">
+                <div class="thread__header"></div>
+                <div class="thread__body"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scripts">
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="underscore-1.8.3.min.js"></script>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
